@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int rollno;
+float aggregate;
+char section;
+string name; 
+
+cout<<"Enter your name: ";
+cin >> name;
+
+ cout<<"Enter your roll number: ";
+cin >> rollno; 
+
+cout<<"Enter your section: ";
+cin>> section;
+
+ cout<<"Enter your aggregate: ";
+cin>> aggregate;
+cout<<endl; 
+
+cout<<"Your Name is "<< name <<endl;
+
+cout<<"Your Roll Number is "<<rollno<<endl;
+
+cout<<"Your Section is "<<section<<endl;
+
+cout<<"Your aggregate is "<<aggregate<<endl; 
+
+}

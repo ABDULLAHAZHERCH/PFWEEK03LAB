@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int mbs;
+int bits; 
+
+cout<<"Enter megabytes: ";
+cin>> mbs; 
+bits = megabytes * 1024 * 1024 * 8;
+cout<<"Bits is: "<<bits;
+}

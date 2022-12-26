@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+float matric;
+float inter;
+float ecat;
+string name; 
+
+cout<<"Enter your name: ";
+cin>>name; 
+
+cout<<"Enter Matric marks: ";
+cin>>matric; 
+
+cout<<"Enter Inter marks: ";
+cin>>inter; 
+
+cout<<"Enter Ecat marks: ";
+cin>>ecat; 
+
+float matricpercent=(mattic/1100)*10;
+float interpercent=(inter/550)*40;
+float ecatpercent=(ecat/400)*50;
+
+float aggregate=matricpercent+interpercent+ecatpercent;
+
+cout <<name;
+cout<<"Your Aggregate :"<<aggregate<<"%";
+}
